@@ -84,7 +84,7 @@ func printCurl(r *http.Request, body string) {
 	if len(body) > 0 {
 		printf("   -d '%s' \\\n", body)
 	}
-	printf("   \"https://%s%s\" \n", r.Host, green(r.URL.String()))
+	printf("   \"http://%s%s\" \n", r.Host, green(r.URL.String()))
 }
 
 func printf(format string, a ...interface{}) (n int, err error) {
