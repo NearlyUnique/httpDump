@@ -1,5 +1,6 @@
 # httpDump
-Dumps requests sent to it to the console
+
+A completely hacky mostly designed to play with via a debugger tool. There are no tests, it's designed to be changed when I need to. Dumps requests sent to it to the console
 
 Allows testing various web hooks and easily viewing requests, can also dump the request in curl form
 
